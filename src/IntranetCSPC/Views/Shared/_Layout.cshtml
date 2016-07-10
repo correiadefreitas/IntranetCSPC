@@ -6,7 +6,7 @@
     <title>@ViewData["Title"] - IntranetCSPC</title>
 
     <environment names="Development">
-        <link rel="stylesheet" href="~/css/bootstrap.css" />
+        <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.css" />
         <link rel="stylesheet" href="~/css/site.css" />
     </environment>
     <environment names="Staging,Production">
@@ -46,8 +46,8 @@
     </div>
 
     <environment names="Development">
-        <script type="text/javascript" src="~/lib/angular/angular.min.js"></script>
-        <script type="text/javascript" src="~/js/ui-bootstrap.js"></script>
+        <script src="~/lib/jquery/dist/jquery.js"></script>
+        <script src="~/lib/bootstrap/dist/js/bootstrap.js"></script>
         <script src="~/js/site.js" asp-append-version="true"></script>
     </environment>
     <environment names="Staging,Production">
@@ -61,6 +61,7 @@
         </script>
         <script src="~/js/site.min.js" asp-append-version="true"></script>
     </environment>
+
     @RenderSection("scripts", required: false)
 </body>
 </html>

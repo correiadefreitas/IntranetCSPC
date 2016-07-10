@@ -1,4 +1,4 @@
-{
+﻿{
   "dependencies": {
     "Microsoft.NETCore.App": {
       "version": "1.0.0",
@@ -56,10 +56,6 @@
       "appsettings.json",
       "web.config"
     ]
-  },
-
-  "commands": {
-    "web": "Microsoft.AspNet.Server.Kestrel"
   },
 
   "scripts": {
