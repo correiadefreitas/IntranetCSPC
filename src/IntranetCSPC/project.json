@@ -59,7 +59,8 @@
   },
 
   "commands": {
-    "web": "Microsoft.AspNet.Server.Kestrel --config hosting.json"
+    "web": "Microsoft.AspNet.Hosting --server Microsoft.AspNet.Server.Kestrel --server.urls http://0.0.0.0:5000",
+    "ef": "EntityFramework.Commands"
   },
 
   "scripts": {
