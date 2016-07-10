@@ -12,7 +12,7 @@ namespace IntranetCSPC
         public static void Main(string[] args)
         {
             var host = new WebHostBuilder()
-                .UseUrls("http://0.0.0.0:8080")
+                .UseUrls("http://192.168.1.6:8081")
                 .UseKestrel()
                 .UseContentRoot(Directory.GetCurrentDirectory())
                 .UseIISIntegration()
