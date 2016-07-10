@@ -23,7 +23,11 @@
     "BundlerMinifier.Core": "2.1.258",
     "Npgsql.EntityFrameworkCore.PostgreSQL": "1.0.0",
     "Npgsql.EntityFrameworkCore.PostgreSQL.Design": "1.0.0",
-    "Microsoft.EntityFrameworkCore": "1.0.0"
+    "Microsoft.EntityFrameworkCore": "1.0.0",
+    "Microsoft.EntityFrameworkCore.Design": {
+      "version": "1.0.0-preview2-final",
+      "type": "build"
+    }
   },
 
   "tools": {
